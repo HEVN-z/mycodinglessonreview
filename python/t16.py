@@ -1026,3 +1026,31 @@ txt = "I could eat bananas all day, bananas are my favorite fruit"
 x = txt.rpartition("bananas")
 print(txt, " rpartition(\"banana\")")
 print(x)
+
+# Definition and Usage
+# The rpartition() method searchs for the last occurrencee of a specified string, and splits the string into a tuple contains the part before the specified string.
+# The first element contains the part before the specified string.
+# The second element contains the specified string.
+# The third element contains the part after the string.
+# Syntax
+# string.rpartition(value)
+
+# Parameter Values
+# value     Required. The string to search for
+
+# More Examples
+# If the specified value is not found, the rpartition() method returns a tuple containing:
+# 1- an empty string.
+# 2- an empty string.
+# 3- the whole string.
+
+txt = "I could eat bananas all day, bananas are my favorite fruit"
+x = txt.rpartition("apples")
+print(txt, " rpartition(\"apples\")")
+print(x)
+
+# ========================================================================
+
+#
+# 
+#
