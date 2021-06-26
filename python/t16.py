@@ -1112,5 +1112,31 @@ print(x)
 # ==============================================================
 
 #
-# 
+# split()
 #
+# Python String split() Method
+# Split a string into a list where each word is a list item:
+
+txt = "welcome to the jungle"
+x = txt.split()
+print(txt, " split()")
+print(x)
+
+# Definition and Usage
+# The split() method splits a string into a list.
+# You can specify the separator, default separator is any whitespace.
+# Syntax
+# string.split(separator, maxsplit)
+
+# Parameter Values
+# separator     Optional. Speficies the separator to use when splitting the string. By default any whitespace is a separator
+# maxsplit      Optional. Specifies how many splits to do. Default calue -1, which is "all occurrences"
+
+# More Examples
+# Split the string, using comma, followed by a space, as a separator:
+
+txt = "hello, my name is Peter, I am 26 years old"
+x = txt.split(", ")
+print(txt, " split()")
+print(x)
+
