@@ -1218,3 +1218,32 @@ print(x)
 
 # =====================================================================
 
+#
+# strip()
+#
+# Python String strip() Method
+# Remove spaces at the beginning and at the end of the string:
+
+txt = "     banana     "
+x = txt.strip()
+print(txt, " strip()")
+print(x)
+
+# Definition and Usage
+# The strip() method removes any leading (spaces at the beginning) and trailing (spaces at the end) characters (space is the default leading character to remove)
+# Syntax
+# string.strip(characters)
+
+# Parameter Values
+# characters    Optional. A set of characters to remove as leading/trailing characters
+
+# More Examples
+# Remove the leading and trailing characters:
+
+txt = ",,,,,rrttgg.....banana.....rrr"
+x = txt.strip(",.grt")
+print(txt, " strip(\",.grt\")")
+print(x)
+
+# ==============================================================
+
