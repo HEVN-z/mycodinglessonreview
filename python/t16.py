@@ -1350,5 +1350,24 @@ print(txt.translate(mydict))
 # ======================================================================
 
 #
+# upper()
+#
+# Python String upper() Method
+# Upper case the string:
+
+txt = "Hello my friends"
+x = txt.upper()
+print(txt, " upper()")
+print(x)
+
+# Definition and Usage
+# The upper() returns a string where all characters are in upper case.
+# Symbols and Numbers are ignored.
+# Syntax
+# string,upper()
+
+# =====================================================================
+
+#
 #
 #
