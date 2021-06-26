@@ -1137,6 +1137,23 @@ print(x)
 
 txt = "hello, my name is Peter, I am 26 years old"
 x = txt.split(", ")
-print(txt, " split()")
+print(txt, " split(\", \")")
 print(x)
 
+# Example
+# Use a hash character as a separator:
+
+txt = "apple#banana#cherry#orange"
+x = txt.split("#")
+print(txt, " split(\"#\")")
+print(x)
+
+# Example
+# Split the string into a list with max 2 items:
+
+txt = "apple#banana#cherry#orange"
+x = txt.split("#",1)
+print(txt, " split(\"#\",1)")
+print(x)
+
+# =======================================================================
