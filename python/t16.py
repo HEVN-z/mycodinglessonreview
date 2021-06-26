@@ -1054,4 +1054,34 @@ print(x)
 #
 # rsplit()
 #
-# Python 
+# Python String rsplit() Method
+# Split a string a list, using comma, followed by a space(,) as the separator:
+
+txt = "apple, banana, cherry"
+x = txt.rsplit(", ")
+print(x)
+
+# Definition and Usage
+# The rsplit() method splits a string into a list, starting from the right.
+# If no "max" is specified, this methhod will return the same as the split() method.
+# Syntax
+# string.rsplit(separator, maxsplit)
+
+# Parameter Values
+# separator Optional. Specifies the separator to use when spliting the string. By default any whitespace is a separator.
+# maxsplit  Optional. Specifies how many splits to do. Default value is -1, which is "all occurrences"
+
+# More Examples
+# Split the string into a list with maximum 2 items:
+
+txt = "apple, banana, cherry"
+
+# setting the maxsplit parameter to 1, will return a list with 2 elements!
+x = txt.rsplit(", ", 1)
+print(x)
+
+# ========================================================================
+
+#
+#
+#
