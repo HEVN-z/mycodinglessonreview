@@ -387,7 +387,7 @@ print(thislist)
 
 thislist = ["apple","banana","cherry"]
 del thislist
-print(thislist)
+# print(thislist)
 
 # NameError: name 'thislist' is not defined
 
@@ -404,3 +404,49 @@ thislist = ["apple","banana","cherry"]
 thislist.clear()
 print(thislist)
 
+# []
+
+# =============================================================================
+
+#
+# Python - Loop Lists
+#
+
+# Loop Through a List
+# You can loop through the list items by using a for loop:
+
+# Example
+# Print all items in the list, one by one
+
+thislist = ["apple","banana","cherry"]
+for x in thislist:
+    print(x)
+
+# apple
+# banana
+# cherry
+
+# Learn more about for loops in our Python For Loops Chapter:
+
+#
+# Loop Through the Index Numbers
+#
+# You can also loop through the list items by refering to their index number.
+# Use the range() and len() functions to create a suitabke iterable.
+
+# Example
+# Print all items by referring to their index number:
+
+thislist = ["apple","banana","cherry"]
+for i in range(len(thislist)):
+    print(thislist[i])
+
+print(range(3))
+print(range(2,3))
+# apple
+# banana
+# cherry
+# range(0, 3)
+# range(2, 3)
+
+# The iterable created in the example above is [0, 1, 2].
