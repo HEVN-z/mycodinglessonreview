@@ -149,4 +149,22 @@ print(thislist[1:5]) # ['banana', 'cherry', 'kiwi', 'melon']
 print(thislist[2:4]) # ['cherry', 'kiwi']
 print(thislist[2:5]) # ['cherry', 'kiwi', 'melon']
 
-# NOTE: The search
+## NOTE: The search will start at index 2(included) and end at index 5 (not included).
+## Remember that the first item has index 0.
+
+# By leaving out the start value, the range will start the first item:
+
+# Example
+# This example returns the item from the begining to, but NOT including, "kiwi":
+
+thislist = ["apple","banana","cherry","orange","kiwi","melon","mango"]
+print(thislist[:4]) # ['apple', 'banana', 'cherry', 'orange']
+
+# By leaving out the end value, the range will go on to the end of list:
+
+# Example
+# This example returns the item from "cherry" to the end:
+
+thislist = ["apple","banana","cherry","orange","kiwi","melon","mango"]
+print(thislist[2:]) # ['cherry', 'orange', 'kiwi', 'melon', 'mango']
+
