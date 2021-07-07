@@ -93,6 +93,8 @@ print(type(mylist))
 thislist = list(("apple","banana","cherry")) # note the double round-brackets
 print(thislist)
 
+# ===========================================================================
+
 #
 # Python Collections(Arrays)
 # 
@@ -178,4 +180,36 @@ print(thislist[2:]) # ['cherry', 'orange', 'kiwi', 'melon', 'mango']
 
 thislist = ["apple","banana","cherry","orange","kiwi","melon","mango"]
 print(thislist[-4:-1]) # ['orange', 'kiwi', 'melon']
+
+#
+# Check if Item Exists
+#
+# To determine if a specified item is present in a list use the in keyword:
+
+# Example
+# Check if "apple" is present in the list:
+
+thislist = ["apple","banana","cherry"]
+if "apple" in thislist:
+    print("Yes, 'apple is in the fruits list") 
+
+# Yes, 'apple is in the fruits list
+
+# ============================================================================
+
+#
+# Python - Change List Items
+#
+
+# Change Item Lalue
+# To change the value of a specific item, refer to the index number:
+
+# Example
+# Change the second item:
+
+thislist = ["apple","banana","cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+
+# ['apple', 'blackcurrant', 'cherry']
 
