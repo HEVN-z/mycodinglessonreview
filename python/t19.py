@@ -540,3 +540,71 @@ newlist = [x for x in fruits if x != "apple"]
 print(newlist)
 # ['banana', 'cherry', 'kiwi', 'mango']
 
+# The condition   if x != "apple"   will return True for all elements other than "apple", making the new list contain all fruits except "apple".
+# The condition is optional and can be omitted:
+
+# Example
+# With no if statement:
+
+newlist = [x for x in fruits]
+
+#
+# Iterable
+#
+# The iterable can be any iterabke object, like a list tuple, set etc.
+
+# Example
+# You can usee the range() function to create an iterable:
+
+newlist = [x for x in range(10)]
+print(newlist)
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Same example, but with a condition:
+
+# Example
+# Accept only numbers lower than 5:
+
+newlist = [x for x in range(10) if x < 5]
+print(newlist)
+# [0, 1, 2, 3, 4]
+
+# Expression
+# The expression is the current item in the iteration, but iit is also the outcome, which you can manipulate before it ends up like a list item in the new list:
+
+# Example
+# Set the values in the new list to upper case:
+
+fruit = ["apple","banana","cherry","kiwi","mango"]
+newlist = [x.upper() for x in fruits]
+print(newlist)
+# ['APPLE', 'BANANA', 'CHERRY', 'KIWI', 'MANGO']
+
+# You can set outcome to whatever you like:
+
+# Example
+# Set all values in the new list to 'hello:
+
+fruit = ["apple","banana","cherry","kiwi","mango"]
+newlist = ['hello' for x in fruits]
+print(newlist)
+# ['hello', 'hello', 'hello', 'hello', 'hello']
+
+# The expression can also contain conditions, not like a filter, but as a way to manipulate the outcome:
+
+# Example
+# Return "orange" instead of "banana":
+
+fruit = ["apple","banana","cherry","kiwi","mango"]
+newlist = [x if x != "banana" else "orage" for x in fruits]
+print(newlist)
+# ['apple', 'orage', 'cherry', 'kiwi', 'mango']
+
+# The expression in the exanoke above says:
+# Return the item if it is not banana, iif it is banana return orange".
+
+# =============================================================================
+
+#
+# Python
+#
