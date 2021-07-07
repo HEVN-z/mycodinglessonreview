@@ -450,3 +450,93 @@ print(range(2,3))
 # range(2, 3)
 
 # The iterable created in the example above is [0, 1, 2].
+
+
+#
+# Using a While Loop
+#
+# You can loop through the list items by using a while loop.
+# Using the len() function to determine the length of the list, then start at 0 and loop your way through the list, items, by refering to their indexes.
+
+# Example
+# Print all items, using a while loop to go through all the index numbers.
+
+thislist = ["apple","banana","cherry"]
+i = 0
+while i < len(thislist):
+    print(thislist[i])
+    i = i+1
+# apple
+# banana
+# cherry
+
+# Learn more about while loops in uor Python While Loops Chapter.
+
+#
+# Looping Using List Comprehension
+#
+# List Comprehension offers the shortest syntax for looping through lists:
+
+# Example
+# A short hand for loop that will print all items in a list:
+
+thislist = ["apple","banana","cherry"]
+[print(x) for x in thislist]
+
+# apple
+# banana
+# cherry
+
+# Learn more about list comprehension in the next chapter : List Comprehension.
+
+# ==============================================================================
+
+#
+# Python - List Comprehension
+#
+
+# List Comprehension
+# List comprehension offers a shorter syntax when you want to create a new list based on the balue of an existing list.
+
+# Example:
+# Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
+# Without list comprehension you will have to weite a for statement with a conditioonal test inside:
+
+# Example
+
+fruits = ["apple","banana","cherry","kiwi","mango"]
+newlist = []
+
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+# ['apple', 'banana', 'mango']
+
+# With list comprehension you can do all that with only one line of code:
+
+# Example
+
+fruit = ["apple","banana","cherry","kiwi","mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+# ['apple', 'banana', 'mango']
+
+
+#
+# The Syntax
+#
+# newlist = [expression for item in iterable if condition == True]
+# The return value is a new liist, leaving the old list unchanged.
+
+# Condition
+# The condition is like a filter that only accepts the items that valuate to True.
+
+# Example
+# Only accept items that are not "apple":
+
+fruit = ["apple","banana","cherry","kiwi","mango"]
+newlist = [x for x in fruits if x != "apple"]
+print(newlist)
+# ['banana', 'cherry', 'kiwi', 'mango']
+
