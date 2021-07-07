@@ -119,3 +119,34 @@ print(thislist)
 thislist = ["apple","banana","cherry"]
 print(thislist[1]) # banana
 
+# NOTE: The first item has indes 0.
+
+#
+# Negative Indexing
+#
+# Negative indexing means start from the end
+
+# -1 refer to the last item, -2 refer ti the second last item etc.
+
+# Example
+# Print the last item of the list:
+
+thislist = ["apple","banana","cherry"]
+print(thislist[-1]) # cherry
+
+# 
+# Range of Indexes
+#
+# You can specify a range of indexes by specifying where to start and where to end the range.
+# When specifying a range, the return value will be a new list with the specified items.
+
+# Example
+# Return the third, fourth, and fifth item:
+
+thislist = ["apple","banana","cherry","kiwi","melon","mango"]
+print(thislist[0:6]) # ['apple', 'banana', 'cherry', 'kiwi', 'melon', 'mango']
+print(thislist[1:5]) # ['banana', 'cherry', 'kiwi', 'melon']
+print(thislist[2:4]) # ['cherry', 'kiwi']
+print(thislist[2:5]) # ['cherry', 'kiwi', 'melon']
+
+# NOTE: The search
