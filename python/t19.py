@@ -84,3 +84,26 @@ print(list1)
 mylist = ["apple","banana","cherry"]
 print(type(mylist))
 
+# The list() Constructor
+# It is also possible to use the list() constructor when creating a new list.
+
+# Example
+# Using the list() constructor to make a list:
+
+thislist = list(("apple","banana","cherry")) # note the double round-brackets
+print(thislist)
+
+#
+# Python Collections(Arrays)
+# 
+# There are four collection data types in the Python programming language:
+# - List is a collection which is ordered and changeable. Allows duplicate members.
+# - Tuple is collection which is ordered and unchangeable. Allow duplicate members.
+# - Set is a collection which is unordered and unindeced. No duplicate members.
+# - Dictionary is a collection which ordered* and changeable. No duplicate members.
+
+# *As of Python version 3.7, dictionaries are ordered, In Python 3.6 and earlier, dictionariese are unordered.
+
+# When choosing a collection type, it is useful to understand the properties of that type.
+# Choosing the right type fir a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+
