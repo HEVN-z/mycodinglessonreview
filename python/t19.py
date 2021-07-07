@@ -1,4 +1,6 @@
+#
 # Python Lists
+#
 
 mylist = ["apple","banana","cherry"]
 
@@ -32,4 +34,53 @@ print(thislist)
 
 thislist = ["apple","banana","cherry","apple","cherry"]
 print(thislist)
+
+#
+# List Leigth
+#
+# To determine how many items a list has, use the len() function:
+
+# Example
+# Print the number if items in the list:
+
+thislist = ["apple","banana","cherry"]
+print(thislist[1]) # banana
+print(len(thislist)) # 3
+print(thislist[len(thislist)-1]) # cherry
+
+#
+# List Items - Data Types
+#
+# Example
+# String, int and boolean data types:
+
+list1 = ["apple","banana","cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+
+print(list1)
+print(list2)
+print(list3)
+
+# A list can contain different data types:
+
+# Example
+# A list with strings, integers and boolean values:
+
+list1 = ["abc", 34, True, 40, "male"]
+
+print(list1)
+
+#
+# type()
+# 
+# From Python's perspective, lists are defined as objects with data type 'list':
+
+# <class 'list'>
+
+# Example
+# What is the data type of a list?
+
+mylist = ["apple","banana","cherry"]
+print(type(mylist))
 
