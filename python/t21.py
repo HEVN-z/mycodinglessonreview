@@ -168,3 +168,17 @@ thisset.update(tropical)
 print(thisset)
 # {'banana', 'cherry', 'pineapple', 'papaya', 'apple', 'mango'}
 
+#
+# Add Any Iterable
+# The object in the update() method does not have to be a set, it can be any iterable object(tuple, lists, dictionaries rtc.)
+
+# Example
+# Add elements of a list to at set:
+
+thisset = {"apple","banana","cherry"}
+mylist = ["kiwi","orange"]
+thisset.update(mylist)
+print(thisset)
+# {'banana', 'kiwi', 'orange', 'cherry', 'apple'}
+
+# ================================================================================
