@@ -299,3 +299,10 @@ if "model" in thisdict:
     print("Yes, 'model' is one of the keys in the thisdict dictionary")
 
 # =======================================================================
+
+#
+# Python - Change Dictionary Items
+#
+
+# Change Values
+# 
