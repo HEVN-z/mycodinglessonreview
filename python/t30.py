@@ -122,4 +122,4 @@ class Student(Person):
     def welcome(self):
         print("welcome",self.firstname,self.lastname,"to the class of",self.graduationyear)
 
-# If you add a method in the
+# If you add a method in the child class
