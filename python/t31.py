@@ -43,5 +43,3 @@ print(next(myit))
 # n
 print(next(myit))
 # a
-
-1
