@@ -27,3 +27,49 @@ if 5 > 2 :
     print("Five is greater than two!")
 
 # Python will give you an error if you skip the indentation:
+
+# Example
+# Syntax Error:
+# >> if 5 > 2:
+# >> print("Five is greater than two!")
+# -> IndentationError: unindent does not match any outer indentation level
+
+# The Number of spaces is up to you as a programmer, but it has to be at least one.
+
+# Example
+
+if 5 > 2 :
+ print("Five is greater than two!")
+if 5 > 2 :
+         print("Five is greater than two!")
+
+# You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
+
+# Example
+# Syntax Error:
+# >> if 5 > 2 :
+# >>     print("Five is greater than two!")
+# >>         print("Five is greater than two!")
+# -> IndentationError: unexpected indent
+
+#
+# Python Variables
+#
+# In Python, variables are created when you assign a value to it:
+
+# Example
+# Variable in Python
+
+x = 5
+y = "Hello, World!"
+
+# Python has no command for declaring a variable.
+# You will learn more about variables in the Python Variables chapter.
+
+#
+# Comments
+#
+# Python has commenting capability for the purpose of in-code documentation.
+# Comments start with a #, and Python will render the rest of the line as a comment:
+
+# Example
