@@ -89,7 +89,7 @@ newlist = ['hello' for x in fruits]
 # Example
 # Return "orange" instead of "banana"
 
-newlist = [x in x != "banana" else "orange" for x in fruits]
+newlist = [x if x != "banana" else "orange" for x in fruits]
 
 # The expression in the example above says:
 
