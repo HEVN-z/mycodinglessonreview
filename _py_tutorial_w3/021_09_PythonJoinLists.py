@@ -43,3 +43,4 @@ list1.extend(list2)
 print(list1)
 # ['a', 'b', 'c', 1, 2, 3]
 
+ 
